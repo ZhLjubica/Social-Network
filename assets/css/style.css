@@ -1,0 +1,125 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+.top_bar{
+    width: 100%;
+    min-width: 1050px;
+    height: 60px;
+    background-color: #60a3bc;
+    border-bottom: 0.25em solid #c3dbe0;
+    margin: 0 0 10px 0;
+    display: inline-flex;
+    position: fixed;
+    z-index: 10;
+}
+body{
+    line-height: 17px;
+    background-color: rgb(241, 238, 238);
+}
+.logo a{
+    font-family: 'Lato', sans-serif;
+    margin-left: 10px;
+    font-size: 230%;
+    line-height: 60px;
+    color: #dcdfe0;
+    text-shadow: #000 1.6px 0.5px 0;
+    text-decoration: none;
+    
+}
+nav{
+    float: right;
+    right: 1px;
+    position: absolute;
+    margin: 10px;
+    line-height: 40px;
+}
+nav a{
+    position: relative;
+    color: #dcdfe0;
+    text-decoration: none;
+    font-size: 22px;
+    padding-right: 7px;
+}
+
+nav a:hover{
+    border-bottom: 4px solid #0a3d62;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.wrapper {
+    margin: 0 auto;
+    top: 70px;
+    position: relative;
+    padding: 0 10px;
+    width: 75px;
+    min-width: 950px;
+}
+
+.column {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px #d3d3d3;
+    z-index: -1;
+}
+
+.user_details {
+    width: 250px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.user_details_left_right {
+    width: 125px;
+    display: inline-block;
+    position: absolute;
+}
+.user_details img {
+    height: 125px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.main_column {
+    float: right;
+    width: 70%;
+    z-index: -1;
+    min-height: 160px;
+}
+.post_form {
+    width: 100%;
+}
+
+.post_form textarea{
+    width: 81%;
+    height: 60px;
+    border-radius: 3px;
+    margin-right: 5px;
+    border: 1px solid #d3d3d3;
+    padding: 5px;
+}
+
+textarea:focus {
+    outline: 0;
+}
+
+.post_form input[type="submit"] {
+    width: 11%;
+    height: 60px;
+    border: none;
+    border-radius: 3px;
+    background-color: #60a3bc;
+    color: #dcdfe0;
+    /* text-shadow: rgb(63, 62, 62) 1.6px 0.5px 0; */
+    font-size: 105%;
+    position: absolute;
+    outline: 0;
+    margin: 0;
+}
+
+.post_form input[type="submit"]:active {
+    padding: 5px 4px 4px 5px;
+}
